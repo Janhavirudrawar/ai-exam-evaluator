@@ -1,0 +1,17 @@
+# .env
+# envs/realproject/myenv/
+# envs/realproject/realproject_env/
+# *.pyc
+# __pycache__/
+
+# Virtual environments
+myenv/
+realproject_env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env

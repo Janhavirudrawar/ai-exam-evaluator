@@ -1,0 +1,536 @@
+{
+  "tasks": [
+    
+    { "id": 1, "difficulty": "easy", "question": "What is a computer?", "student_answer": "A computer is an electronic device that processes data.", "rubric": { "definition": 5, "clarity": 5 }, "expected_score": 8 },
+    { "id": 2, "difficulty": "easy", "question": "What is software?", "student_answer": "Software is a set of programs that run on a computer.", "rubric": { "definition": 5, "examples": 5 }, "expected_score": 7 },
+    { "id": 3, "difficulty": "easy", "question": "What is hardware?", "student_answer": "Hardware refers to physical parts of a computer.", "rubric": { "definition": 5, "examples": 5 }, "expected_score": 8 },
+    { "id": 4, "difficulty": "easy", "question": "What is RAM?", "student_answer": "RAM is temporary memory used for processing.", "rubric": { "definition": 5, "usage": 5 }, "expected_score": 7 },
+    { "id": 5, "difficulty": "easy", "question": "What is ROM?", "student_answer": "ROM is permanent memory that stores instructions.", "rubric": { "definition": 5, "usage": 5 }, "expected_score": 7 },
+    { "id": 6, "difficulty": "easy", "question": "What is CPU?", "student_answer": "CPU is the brain of the computer.", "rubric": { "definition": 5, "role": 5 }, "expected_score": 8 },
+    { "id": 7, "difficulty": "easy", "question": "What is an input device?", "student_answer": "Input devices send data to the computer.", "rubric": { "definition": 5, "examples": 5 }, "expected_score": 7 },
+    { "id": 8, "difficulty": "easy", "question": "What is an output device?", "student_answer": "Output devices display results.", "rubric": { "definition": 5, "examples": 5 }, "expected_score": 7 },
+    { "id": 9, "difficulty": "easy", "question": "What is a keyboard?", "student_answer": "Keyboard is used to type input.", "rubric": { "definition": 5, "usage": 5 }, "expected_score": 6 },
+    { "id": 10, "difficulty": "easy", "question": "What is a mouse?", "student_answer": "Mouse is used to point and click.", "rubric": { "definition": 5, "usage": 5 }, "expected_score": 6 },
+
+    { "id": 11, "difficulty": "easy", "question": "What is a monitor?", "student_answer": "Monitor displays output.", "rubric": { "definition": 5, "usage": 5 }, "expected_score": 6 },
+    { "id": 12, "difficulty": "easy", "question": "What is a file?", "student_answer": "A file is a collection of data.", "rubric": { "definition": 5, "clarity": 5 }, "expected_score": 7 },
+    { "id": 13, "difficulty": "easy", "question": "What is a folder?", "student_answer": "A folder stores files.", "rubric": { "definition": 5, "usage": 5 }, "expected_score": 7 },
+    { "id": 14, "difficulty": "easy", "question": "What is an operating system?", "student_answer": "It manages hardware and software.", "rubric": { "definition": 5, "function": 5 }, "expected_score": 8 },
+    { "id": 15, "difficulty": "easy", "question": "What is Windows OS?", "student_answer": "Windows is an operating system developed by Microsoft.", "rubric": { "definition": 5, "example": 5 }, "expected_score": 8 },
+    { "id": 16, "difficulty": "easy", "question": "What is Linux?", "student_answer": "Linux is an open-source operating system.", "rubric": { "definition": 5, "feature": 5 }, "expected_score": 8 },
+    { "id": 17, "difficulty": "easy", "question": "What is data?", "student_answer": "Data is raw information.", "rubric": { "definition": 5, "clarity": 5 }, "expected_score": 7 },
+    { "id": 18, "difficulty": "easy", "question": "What is information?", "student_answer": "Information is processed data.", "rubric": { "definition": 5, "clarity": 5 }, "expected_score": 7 },
+    { "id": 19, "difficulty": "easy", "question": "What is a program?", "student_answer": "A program is a set of instructions.", "rubric": { "definition": 5, "clarity": 5 }, "expected_score": 7 },
+    { "id": 20, "difficulty": "easy", "question": "What is coding?", "student_answer": "Coding is writing instructions for computers.", "rubric": { "definition": 5, "clarity": 5 }, "expected_score": 7 },
+
+    { "id": 21, "difficulty": "easy", "question": "What is Python?", "student_answer": "Python is a programming language.", "rubric": { "definition": 5, "example": 5 }, "expected_score": 7 },
+    { "id": 22, "difficulty": "easy", "question": "What is a variable?", "student_answer": "A variable stores data.", "rubric": { "definition": 5, "usage": 5 }, "expected_score": 8 },
+    { "id": 23, "difficulty": "easy", "question": "What is a loop?", "student_answer": "Loop repeats instructions.", "rubric": { "definition": 5, "usage": 5 }, "expected_score": 7 },
+    { "id": 24, "difficulty": "easy", "question": "What is a function?", "student_answer": "Function is reusable code block.", "rubric": { "definition": 5, "usage": 5 }, "expected_score": 7 },
+    { "id": 25, "difficulty": "easy", "question": "What is an array?", "student_answer": "Array stores multiple values.", "rubric": { "definition": 5, "usage": 5 }, "expected_score": 7 },
+    { "id": 26, "difficulty": "easy", "question": "What is a compiler?", "student_answer": "Compiler converts code into machine language.", "rubric": { "definition": 5, "function": 5 }, "expected_score": 8 },
+    { "id": 27, "difficulty": "easy", "question": "What is debugging?", "student_answer": "Debugging is fixing errors.", "rubric": { "definition": 5, "purpose": 5 }, "expected_score": 7 },
+    { "id": 28, "difficulty": "easy", "question": "What is an error in programming?", "student_answer": "Error is a mistake in code.", "rubric": { "definition": 5, "clarity": 5 }, "expected_score": 7 },
+    { "id": 29, "difficulty": "easy", "question": "What is internet?", "student_answer": "Internet is global network.", "rubric": { "definition": 5, "scope": 5 }, "expected_score": 7 },
+    { "id": 30, "difficulty": "easy", "question": "What is email?", "student_answer": "Email is electronic message system.", "rubric": { "definition": 5, "usage": 5 }, "expected_score": 7 },
+    
+    
+
+    {
+      "id": 31,
+      "difficulty": "medium",
+      "question": "Compare RAM and ROM in terms of volatility, usage, and speed.",
+      "student_answer": "RAM is volatile, faster and used for temporary storage, while ROM is non-volatile and stores permanent instructions.",
+      "rubric": { "volatility": 3, "usage": 3, "speed": 4 },
+      "expected_score": 9
+    },
+    {
+      "id": 32,
+      "difficulty": "medium",
+      "question": "Explain how an operating system handles process scheduling.",
+      "student_answer": "OS schedules processes using algorithms like FCFS, SJF and Round Robin to manage CPU usage.",
+      "rubric": { "concept": 4, "algorithms": 4, "purpose": 2 },
+      "expected_score": 9
+    },
+    {
+      "id": 33,
+      "difficulty": "medium",
+      "question": "Explain the four pillars of OOP with examples.",
+      "student_answer": "Encapsulation, inheritance, polymorphism and abstraction are OOP concepts used in object-based programming.",
+      "rubric": { "concepts": 6, "examples": 4 },
+      "expected_score": 8
+    },
+    {
+      "id": 34,
+      "difficulty": "medium",
+      "question": "Explain normalization and its types (1NF, 2NF, 3NF).",
+      "student_answer": "Normalization removes redundancy and organizes data into 1NF, 2NF and 3NF.",
+      "rubric": { "definition": 4, "forms": 4, "purpose": 2 },
+      "expected_score": 9
+    },
+    {
+      "id": 35,
+      "difficulty": "medium",
+      "question": "Differentiate between stack and queue with real-world examples.",
+      "student_answer": "Stack uses LIFO like plates, queue uses FIFO like a line.",
+      "rubric": { "stack": 3, "queue": 3, "example": 4 },
+      "expected_score": 9
+    },
+
+    {
+      "id": 36,
+      "difficulty": "medium",
+      "question": "Explain recursion with base case and recursive case.",
+      "student_answer": "Recursion is when a function calls itself until a base condition is met.",
+      "rubric": { "definition": 4, "base_case": 3, "recursive_case": 3 },
+      "expected_score": 8
+    },
+    {
+      "id": 37,
+      "difficulty": "medium",
+      "question": "Explain time complexity with Big-O notation.",
+      "student_answer": "Time complexity measures performance using Big-O like O(n), O(log n).",
+      "rubric": { "definition": 4, "notation": 4, "examples": 2 },
+      "expected_score": 8
+    },
+    {
+      "id": 38,
+      "difficulty": "medium",
+      "question": "Explain REST API principles.",
+      "student_answer": "REST APIs use HTTP methods like GET, POST and follow stateless communication.",
+      "rubric": { "principles": 5, "methods": 3, "stateless": 2 },
+      "expected_score": 9
+    },
+    {
+      "id": 39,
+      "difficulty": "medium",
+      "question": "Explain client-server architecture with request-response cycle.",
+      "student_answer": "Client sends request, server processes and returns response.",
+      "rubric": { "client": 3, "server": 3, "cycle": 4 },
+      "expected_score": 8
+    },
+    {
+      "id": 40,
+      "difficulty": "medium",
+      "question": "Explain indexing in databases and its impact on performance.",
+      "student_answer": "Indexing improves query speed but increases storage overhead.",
+      "rubric": { "concept": 4, "performance": 4, "tradeoff": 2 },
+      "expected_score": 9
+    },
+
+    {
+      "id": 41,
+      "difficulty": "medium",
+      "question": "Explain difference between TCP and UDP with use cases.",
+      "student_answer": "TCP is reliable, UDP is faster and used in streaming.",
+      "rubric": { "tcp": 3, "udp": 3, "usecase": 4 },
+      "expected_score": 9
+    },
+    {
+      "id": 42,
+      "difficulty": "medium",
+      "question": "Explain how DNS resolution works step-by-step.",
+      "student_answer": "DNS converts domain to IP using hierarchical lookup.",
+      "rubric": { "steps": 6, "concept": 4 },
+      "expected_score": 8
+    },
+    {
+      "id": 43,
+      "difficulty": "medium",
+      "question": "Explain memory management techniques like paging and segmentation.",
+      "student_answer": "Paging divides memory into fixed blocks, segmentation divides logically.",
+      "rubric": { "paging": 4, "segmentation": 4, "difference": 2 },
+      "expected_score": 9
+    },
+    {
+      "id": 44,
+      "difficulty": "medium",
+      "question": "Explain deadlock conditions in operating systems.",
+      "student_answer": "Deadlock occurs due to mutual exclusion, hold and wait, no preemption, circular wait.",
+      "rubric": { "conditions": 8, "concept": 2 },
+      "expected_score": 9
+    },
+    {
+      "id": 45,
+      "difficulty": "medium",
+      "question": "Explain difference between SQL and NoSQL databases.",
+      "student_answer": "SQL is structured and relational, NoSQL is flexible and non-relational.",
+      "rubric": { "sql": 4, "nosql": 4, "difference": 2 },
+      "expected_score": 9
+    },
+
+    {
+      "id": 46,
+      "difficulty": "medium",
+      "question": "Explain version control and Git workflow.",
+      "student_answer": "Git tracks changes and uses branching and merging.",
+      "rubric": { "concept": 4, "workflow": 4, "tools": 2 },
+      "expected_score": 8
+    },
+    {
+      "id": 47,
+      "difficulty": "medium",
+      "question": "Explain Agile methodology vs Waterfall model.",
+      "student_answer": "Agile is iterative, waterfall is linear.",
+      "rubric": { "agile": 4, "waterfall": 4, "comparison": 2 },
+      "expected_score": 8
+    },
+    {
+      "id": 48,
+      "difficulty": "medium",
+      "question": "Explain encryption vs hashing.",
+      "student_answer": "Encryption is reversible, hashing is one-way.",
+      "rubric": { "encryption": 4, "hashing": 4, "difference": 2 },
+      "expected_score": 9
+    },
+    {
+      "id": 49,
+      "difficulty": "medium",
+      "question": "Explain load balancing and its types.",
+      "student_answer": "Load balancing distributes traffic using round robin and least connections.",
+      "rubric": { "concept": 4, "types": 4, "purpose": 2 },
+      "expected_score": 9
+    },
+    {
+      "id": 50,
+      "difficulty": "medium",
+      "question": "Explain virtualization and its benefits.",
+      "student_answer": "Virtualization creates virtual machines and improves resource usage.",
+      "rubric": { "concept": 4, "benefits": 4, "usage": 2 },
+      "expected_score": 8
+    },
+
+    {
+      "id": 51,
+      "difficulty": "medium",
+      "question": "Explain API authentication methods.",
+      "student_answer": "API authentication uses tokens, API keys and OAuth.",
+      "rubric": { "methods": 6, "concept": 4 },
+      "expected_score": 9
+    },
+    {
+      "id": 52,
+      "difficulty": "medium",
+      "question": "Explain caching mechanisms.",
+      "student_answer": "Caching stores data temporarily to improve performance.",
+      "rubric": { "concept": 4, "benefits": 4, "types": 2 },
+      "expected_score": 8
+    },
+    {
+      "id": 53,
+      "difficulty": "medium",
+      "question": "Explain software testing types.",
+      "student_answer": "Testing includes unit, integration and system testing.",
+      "rubric": { "types": 6, "purpose": 4 },
+      "expected_score": 9
+    },
+    {
+      "id": 54,
+      "difficulty": "medium",
+      "question": "Explain compiler phases.",
+      "student_answer": "Compiler has lexical, syntax and semantic analysis phases.",
+      "rubric": { "phases": 6, "process": 4 },
+      "expected_score": 9
+    },
+    {
+      "id": 55,
+      "difficulty": "medium",
+      "question": "Explain concurrency vs parallelism.",
+      "student_answer": "Concurrency handles tasks simultaneously, parallelism executes tasks at same time.",
+      "rubric": { "concurrency": 4, "parallelism": 4, "difference": 2 },
+      "expected_score": 9
+    },
+
+    {
+      "id": 56,
+      "difficulty": "medium",
+      "question": "Explain microservices architecture.",
+      "student_answer": "Microservices divide applications into smaller services.",
+      "rubric": { "concept": 5, "architecture": 5 },
+      "expected_score": 8
+    },
+    {
+      "id": 57,
+      "difficulty": "medium",
+      "question": "Explain containerization with Docker.",
+      "student_answer": "Docker packages applications into containers.",
+      "rubric": { "concept": 5, "usage": 5 },
+      "expected_score": 8
+    },
+    {
+      "id": 58,
+      "difficulty": "medium",
+      "question": "Explain CI/CD pipeline.",
+      "student_answer": "CI/CD automates build, test and deployment.",
+      "rubric": { "concept": 5, "stages": 5 },
+      "expected_score": 9
+    },
+    {
+      "id": 59,
+      "difficulty": "medium",
+      "question": "Explain edge computing vs cloud computing.",
+      "student_answer": "Edge processes data locally, cloud processes remotely.",
+      "rubric": { "edge": 4, "cloud": 4, "difference": 2 },
+      "expected_score": 9
+    },
+    {
+      "id": 60,
+      "difficulty": "medium",
+      "question": "Explain data consistency in distributed systems.",
+      "student_answer": "Consistency ensures same data across nodes.",
+      "rubric": { "concept": 5, "importance": 5 },
+      "expected_score": 8
+    },
+
+
+    
+
+    {
+      "id": 61,
+      "difficulty": "hard",
+      "question": "Explain ACID properties with real-world database transaction example.",
+      "student_answer": "ACID ensures reliable transactions like bank transfers.",
+      "rubric": { "atomicity": 3, "consistency": 3, "isolation": 2, "durability": 2 },
+      "expected_score": 9
+    },
+    {
+      "id": 62,
+      "difficulty": "hard",
+      "question": "Compare process and thread in terms of memory, execution and overhead.",
+      "student_answer": "Processes are independent with own memory, threads share memory and are lightweight.",
+      "rubric": { "memory": 3, "execution": 3, "overhead": 4 },
+      "expected_score": 9
+    },
+    {
+      "id": 63,
+      "difficulty": "hard",
+      "question": "Explain CAP theorem in distributed systems.",
+      "student_answer": "CAP theorem states consistency, availability and partition tolerance trade-offs.",
+      "rubric": { "concept": 5, "components": 5 },
+      "expected_score": 9
+    },
+    {
+      "id": 64,
+      "difficulty": "hard",
+      "question": "Explain how deadlocks can be prevented and avoided.",
+      "student_answer": "Deadlocks can be prevented by avoiding circular wait and resource allocation strategies.",
+      "rubric": { "prevention": 5, "avoidance": 5 },
+      "expected_score": 9
+    },
+    {
+      "id": 65,
+      "difficulty": "hard",
+      "question": "Explain TCP three-way handshake.",
+      "student_answer": "SYN, SYN-ACK, ACK establish connection.",
+      "rubric": { "steps": 6, "process": 4 },
+      "expected_score": 9
+    },
+
+    {
+      "id": 66,
+      "difficulty": "hard",
+      "question": "Explain distributed system challenges.",
+      "student_answer": "Challenges include latency, fault tolerance and consistency.",
+      "rubric": { "challenges": 6, "explanation": 4 },
+      "expected_score": 8
+    },
+    {
+      "id": 67,
+      "difficulty": "hard",
+      "question": "Explain sharding in databases.",
+      "student_answer": "Sharding splits database across servers.",
+      "rubric": { "concept": 5, "scaling": 5 },
+      "expected_score": 9
+    },
+    {
+      "id": 68,
+      "difficulty": "hard",
+      "question": "Explain MapReduce model.",
+      "student_answer": "MapReduce processes big data in parallel.",
+      "rubric": { "map": 4, "reduce": 4, "concept": 2 },
+      "expected_score": 8
+    },
+    {
+      "id": 69,
+      "difficulty": "hard",
+      "question": "Explain eventual consistency.",
+      "student_answer": "System becomes consistent over time.",
+      "rubric": { "concept": 5, "example": 5 },
+      "expected_score": 8
+    },
+    {
+      "id": 70,
+      "difficulty": "hard",
+      "question": "Explain consensus algorithms like Raft or Paxos.",
+      "student_answer": "Consensus algorithms ensure agreement in distributed systems.",
+      "rubric": { "concept": 6, "example": 4 },
+      "expected_score": 8
+    },
+
+    {
+      "id": 71,
+      "difficulty": "hard",
+      "question": "Explain how a compiler optimizes code.",
+      "student_answer": "Compiler optimizes using loop unrolling and constant folding.",
+      "rubric": { "techniques": 6, "concept": 4 },
+      "expected_score": 9
+    },
+    {
+      "id": 72,
+      "difficulty": "hard",
+      "question": "Explain garbage collection strategies.",
+      "student_answer": "GC frees memory using mark-sweep and reference counting.",
+      "rubric": { "methods": 6, "concept": 4 },
+      "expected_score": 9
+    },
+    {
+      "id": 73,
+      "difficulty": "hard",
+      "question": "Explain blockchain working mechanism.",
+      "student_answer": "Blockchain uses blocks, hashing and distributed consensus.",
+      "rubric": { "blocks": 3, "hashing": 3, "consensus": 4 },
+      "expected_score": 9
+    },
+    {
+      "id": 74,
+      "difficulty": "hard",
+      "question": "Explain backpropagation in neural networks.",
+      "student_answer": "Backpropagation updates weights using gradients.",
+      "rubric": { "concept": 5, "process": 5 },
+      "expected_score": 9
+    },
+    {
+      "id": 75,
+      "difficulty": "hard",
+      "question": "Explain bias-variance tradeoff.",
+      "student_answer": "Tradeoff balances underfitting and overfitting.",
+      "rubric": { "bias": 3, "variance": 3, "tradeoff": 4 },
+      "expected_score": 9
+    },
+
+    {
+      "id": 76,
+      "difficulty": "hard",
+      "question": "Explain gradient descent optimization.",
+      "student_answer": "Gradient descent minimizes loss function iteratively.",
+      "rubric": { "concept": 5, "process": 5 },
+      "expected_score": 9
+    },
+    {
+      "id": 77,
+      "difficulty": "hard",
+      "question": "Explain overfitting and regularization techniques.",
+      "student_answer": "Overfitting occurs when model memorizes data, regularization prevents it.",
+      "rubric": { "overfitting": 5, "regularization": 5 },
+      "expected_score": 9
+    },
+    {
+      "id": 78,
+      "difficulty": "hard",
+      "question": "Explain transformer architecture in deep learning.",
+      "student_answer": "Transformers use attention mechanism for sequence modeling.",
+      "rubric": { "attention": 5, "architecture": 5 },
+      "expected_score": 8
+    },
+    {
+      "id": 79,
+      "difficulty": "hard",
+      "question": "Explain distributed training in machine learning.",
+      "student_answer": "Training is distributed across multiple nodes.",
+      "rubric": { "concept": 5, "benefits": 5 },
+      "expected_score": 8
+    },
+    {
+      "id": 80,
+      "difficulty": "hard",
+      "question": "Explain federated learning.",
+      "student_answer": "Models are trained across devices without sharing data.",
+      "rubric": { "concept": 5, "privacy": 5 },
+      "expected_score": 8
+    },
+
+    {
+      "id": 81,
+      "difficulty": "hard",
+      "question": "Explain zero trust security model.",
+      "student_answer": "Zero trust assumes no implicit trust.",
+      "rubric": { "concept": 5, "principles": 5 },
+      "expected_score": 8
+    },
+    {
+      "id": 82,
+      "difficulty": "hard",
+      "question": "Explain OAuth authentication flow.",
+      "student_answer": "OAuth uses tokens for secure authorization.",
+      "rubric": { "flow": 6, "concept": 4 },
+      "expected_score": 9
+    },
+    {
+      "id": 83,
+      "difficulty": "hard",
+      "question": "Explain service mesh architecture.",
+      "student_answer": "Service mesh manages microservice communication.",
+      "rubric": { "concept": 5, "architecture": 5 },
+      "expected_score": 8
+    },
+    {
+      "id": 84,
+      "difficulty": "hard",
+      "question": "Explain event-driven architecture.",
+      "student_answer": "Systems react to events asynchronously.",
+      "rubric": { "concept": 5, "flow": 5 },
+      "expected_score": 8
+    },
+    {
+      "id": 85,
+      "difficulty": "hard",
+      "question": "Explain CQRS pattern.",
+      "student_answer": "CQRS separates read and write operations.",
+      "rubric": { "concept": 5, "benefits": 5 },
+      "expected_score": 8
+    },
+
+    {
+      "id": 86,
+      "difficulty": "hard",
+      "question": "Explain data pipeline architecture.",
+      "student_answer": "Pipeline moves data through stages like ingestion and processing.",
+      "rubric": { "stages": 6, "concept": 4 },
+      "expected_score": 8
+    },
+    {
+      "id": 87,
+      "difficulty": "hard",
+      "question": "Explain fault tolerance strategies.",
+      "student_answer": "Systems handle failures using redundancy and replication.",
+      "rubric": { "strategies": 6, "concept": 4 },
+      "expected_score": 9
+    },
+    {
+      "id": 88,
+      "difficulty": "hard",
+      "question": "Explain autoscaling in cloud systems.",
+      "student_answer": "Autoscaling adjusts resources automatically.",
+      "rubric": { "concept": 5, "benefits": 5 },
+      "expected_score": 8
+    },
+    {
+      "id": 89,
+      "difficulty": "hard",
+      "question": "Explain high availability architecture.",
+      "student_answer": "HA ensures system uptime using redundancy.",
+      "rubric": { "concept": 5, "techniques": 5 },
+      "expected_score": 8
+    },
+    {
+      "id": 90,
+      "difficulty": "hard",
+      "question": "Explain distributed consensus problem in detail.",
+      "student_answer": "Consensus ensures agreement among distributed nodes.",
+      "rubric": { "problem": 5, "solution": 5 },
+      "expected_score": 9
+    }
+
+  
+  ]
+}

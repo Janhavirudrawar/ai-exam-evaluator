@@ -1,0 +1,52 @@
+name: ai-exam-evaluator
+version: 0.1.0
+description: >
+  AI Exam Evaluator environment that grades student answers against rubrics
+  with partial progress rewards (easy → medium → hard tasks).
+
+authors:
+  - name: Abhay Gade
+    email: abhaygade27@gmail.com
+
+license: MIT
+
+entrypoint: server/app.py
+
+dependencies:
+  - fastapi
+  - uvicorn
+  - requests
+  - python-dotenv
+  - openenv-core
+
+environment:
+  observation_space:
+    type: object   # ✅ FIXED (was string)
+    description: "Contains question, student_answer, rubric_score"
+
+  action_space:
+    type: object   # ✅ FIXED (was string)
+    description: "Agent-generated score"
+
+  reward_space:
+    type: float
+    range: [0.0, 1.0]
+    description: "Reward based on similarity"
+
+tasks:
+  - id: easy
+    description: "Simple factual question grading"
+    dataset: dataset.json
+    grader: ./grader.py   # ✅ FIXED PATH
+
+  - id: medium
+    description: "Moderate reasoning question grading"
+    dataset: dataset.json
+    grader: ./grader.py   # ✅ FIXED PATH
+
+  - id: hard
+    description: "Complex analytical question grading"
+    dataset: dataset.json
+    grader: ./grader.py   # ✅ FIXED PATH
+
+baseline_inference: inference.py
