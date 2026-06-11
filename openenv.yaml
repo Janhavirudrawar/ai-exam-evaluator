@@ -4,9 +4,6 @@ description: >
   AI Exam Evaluator environment that grades student answers against rubrics
   with partial progress rewards (easy → medium → hard tasks).
 
-authors:
-  - name: Abhay Gade
-    email: abhaygade27@gmail.com
 
 license: MIT
 
@@ -21,11 +18,11 @@ dependencies:
 
 environment:
   observation_space:
-    type: object   # ✅ FIXED (was string)
+    type: object   
     description: "Contains question, student_answer, rubric_score"
 
   action_space:
-    type: object   # ✅ FIXED (was string)
+    type: object   
     description: "Agent-generated score"
 
   reward_space:
@@ -37,16 +34,16 @@ tasks:
   - id: easy
     description: "Simple factual question grading"
     dataset: dataset.json
-    grader: ./grader.py   # ✅ FIXED PATH
+    grader: ./grader.py   
 
   - id: medium
     description: "Moderate reasoning question grading"
     dataset: dataset.json
-    grader: ./grader.py   # ✅ FIXED PATH
+    grader: ./grader.py   
 
   - id: hard
     description: "Complex analytical question grading"
     dataset: dataset.json
-    grader: ./grader.py   # ✅ FIXED PATH
+    grader: ./grader.py  
 
 baseline_inference: inference.py

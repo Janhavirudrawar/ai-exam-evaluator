@@ -2,9 +2,7 @@
 name = "ai-exam-evaluator"
 version = "0.1.0"
 description = "AI Exam Evaluator: Automated grading system with rubric alignment."
-authors = [
-    { name = "Abhay Gade", email = "abhaygade27@gmail.com" }
-]
+
 license = "MIT"
 
 # Dependencies required for your environment
